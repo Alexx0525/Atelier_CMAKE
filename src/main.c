@@ -26,15 +26,10 @@ int main(int argc, char *argv[]){
 		r = _div(atof(a), atof(b));
 		printf("%lf",r);
 	}
-	else if (strcmp(op, "car") == 0) {
-    if (argc != 3) {
-        printf("Usage: %s car <a>\n", argv[0]);
-        return 1;
-    }
-    int a = atoi(argv[2]);
-    printf("%d\n", car(a));
-    return 0;
-}
+else if (strcmp(op, "car") == 0) {
+		r = _car(atof(a), atof(b));
+		printf("%lf",r);
+	}
 }
 
 	else {printf("Erreur de parametres");}
