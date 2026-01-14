@@ -35,7 +35,6 @@ int main(int argc, char *argv[]){
     printf("%d\n", car(a));
     return 0;
 }
-
 }
 
 	else {printf("Erreur de parametres");}
